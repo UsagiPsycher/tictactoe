@@ -20,6 +20,7 @@ class Game
       p2 = gets.chomp.to_s
       val2 = !val1
       j2 = Player.new(p2, val2, 0)
+      Board.new()
       
     end
   
